@@ -11,12 +11,9 @@ With the '--deploy' command line switch, you will have a viable microservice whi
 
 Depending on your preference, this could easily be ported to incorporate Tornado, GUnicorn, CherryPy as the WSGI server.
 
-Visit Keras site for more information on applications of this type.
-
-https://keras.io/applications/
-
 Requirements:
 
+* Python 3.5+
 * Keras
 * TensorFlow
 * GEvent
@@ -25,4 +22,16 @@ Requirements:
 * NumPy
  * requests
  
- Please reference documentation for GEvent
+Visit Keras site for more information on applications of this type.
+
+https://keras.io/applications/
+
+Please reference documentation for GEvent to learn more about deployment
+ 
+http://www.gevent.org/
+ 
+Please reference the documentation on Bottle microframework to learn more about the routing/request methodology
+ 
+https://bottlepy.org
+ 
+ 
