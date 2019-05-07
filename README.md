@@ -11,6 +11,8 @@ With the '--deploy' command line switch, you will have a viable microservice whi
 
 Depending on your preference, this could easily be ported to incorporate Tornado, GUnicorn, CherryPy as the WSGI server.
 
+Your requirements will differ as security concerns are addressed and versions are rapidly improving.
+
 Requirements:
 
 * Python 3.5+
